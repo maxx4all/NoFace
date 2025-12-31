@@ -3,6 +3,8 @@ Video generator module for creating motivational videos.
 """
 import os
 import random
+import shutil
+import tempfile
 from pathlib import Path
 from typing import Tuple, Optional
 from PIL import Image, ImageDraw, ImageFont
@@ -14,7 +16,6 @@ from moviepy.editor import (
     concatenate_videoclips
 )
 from gtts import gTTS
-import tempfile
 
 
 class VideoGenerator:
@@ -180,7 +181,6 @@ class VideoGenerator:
             
         finally:
             # Clean up temporary files
-            import shutil
             if os.path.exists(temp_dir):
                 shutil.rmtree(temp_dir)
     

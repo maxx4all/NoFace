@@ -3,6 +3,7 @@ Main desktop application for NoFace - AI Motivational Video Generator.
 """
 import os
 import sys
+import shutil
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox, filedialog
 import configparser
@@ -293,7 +294,6 @@ class NoFaceApp:
         )
         if filename:
             # Copy to expected location
-            import shutil
             shutil.copy(filename, 'client_secrets.json')
             messagebox.showinfo("Success", "YouTube credentials file configured!")
     
