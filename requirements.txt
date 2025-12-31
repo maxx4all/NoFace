@@ -1,0 +1,25 @@
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Video processing
+moviepy>=1.0.3
+Pillow>=10.0.0
+
+# Text-to-speech
+gTTS>=2.4.0
+
+# YouTube API
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0
+
+# TikTok (using unofficial library)
+TikTokApi>=5.3.0
+
+# GUI
+tk>=0.1.0
+
+# Utilities
+configparser>=6.0.0
