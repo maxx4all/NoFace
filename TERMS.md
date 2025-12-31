@@ -116,7 +116,7 @@ Any disputes arising from these Terms or the Service shall be resolved through:
 
 If you have any questions about these Terms of Service, please contact us at:
 
-- Email: support@noface.app
+- Email: suport@easyone.ro
 - GitHub: https://github.com/maxx4all/NoFace
 
 ## 15. Severability
