@@ -71,10 +71,33 @@ Note: Without TikTok API access, videos can be uploaded manually to the TikTok a
 
 ## Usage
 
-### Running the Application
+### Running the Desktop Application
 
 ```bash
 python noface_app.py
+```
+
+### Command-Line Interface
+
+For automation and scripting, use the CLI:
+
+```bash
+# Generate 3 videos
+python cli.py generate -n 3
+
+# Generate videos with custom settings
+python cli.py generate -n 5 --width 1080 --height 1920 --fps 30
+
+# Publish videos to YouTube
+python cli.py publish --youtube --privacy public
+
+# Prepare videos for TikTok
+python cli.py publish --tiktok
+
+# Get help
+python cli.py --help
+python cli.py generate --help
+python cli.py publish --help
 ```
 
 ### Quick Start Guide
@@ -135,6 +158,7 @@ background_color2 = #16213e
 ```
 NoFace/
 ├── noface_app.py           # Main desktop application
+├── cli.py                  # Command-line interface
 ├── video_generator.py      # Video generation module
 ├── youtube_uploader.py     # YouTube API integration
 ├── tiktok_uploader.py      # TikTok integration
@@ -142,6 +166,8 @@ NoFace/
 ├── config.example.ini      # Example configuration
 ├── quotes.txt             # Sample motivational quotes
 ├── README.md              # This file
+├── CONTRIBUTING.md        # Contribution guidelines
+├── LICENSE                # MIT License
 └── .gitignore            # Git ignore rules
 ```
 
