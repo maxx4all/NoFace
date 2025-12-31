@@ -23,11 +23,12 @@ https://github.com/maxx4all/NoFace/blob/main/PRIVACY.md
 2. **Public Access**: These documents are publicly accessible via GitHub, which meets TikTok's requirement for publicly accessible legal documents.
 
 3. **Alternative Options**: If you prefer to use GitHub Pages instead:
-   - Create a `gh-pages` branch
+   - Create a `gh-pages` branch with HTML versions of the documents
    - Set up GitHub Pages in repository settings
-   - URLs would then be:
-     - `https://maxx4all.github.io/NoFace/terms`
-     - `https://maxx4all.github.io/NoFace/privacy`
+   - URLs would then be (example):
+     - `https://maxx4all.github.io/NoFace/terms.html`
+     - `https://maxx4all.github.io/NoFace/privacy.html`
+   - Note: This requires converting the markdown files to HTML and setting up custom routing if you want cleaner URLs
 
 ## Document Contents
 

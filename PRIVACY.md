@@ -239,8 +239,8 @@ If you are in the European Economic Area (EEA), you have rights under the Genera
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
-**Email:** privacy@noface.app  
-**GitHub:** https://github.com/maxx4all/NoFace  
+**Email:** privacy@noface.app
+**GitHub:** https://github.com/maxx4all/NoFace
 **Response Time:** We aim to respond within 30 days
 
 ## 16. Data Protection Officer
